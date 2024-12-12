@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Nicolás</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Nicolás Guzmán</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">My</a>
+            </li>
+            <li>
+                <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+
+        <ion-icon name="menu" id="menu-icon"></ion-icon>
+        <button class="visit-btn">Visitar GitHub</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="nicky.png" alt="Foto de Nicolás">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hola, soy</h3>
+                    <h1>Nicolás Guzmán</h1>
+                    <span>Diseñador Gráfico</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="cv/cv_Nicolas.pdf" class="btn" download>Descargar CV</a>
+                    <a href="https://wa.me/51902239465" class="btn" target="_blank">Contacto</a>
+                </div>
+
+                <div class="socials">
+                    <ion-icon href="https://wa.me/51902239465" name="logo-whatsapp"></ion-icon>
+                    
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-tittle">Experiencia Laboral</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <ion-icon name="brush"></ion-icon>
+                    <span>Diseñador Gráfico</span>
+                    <h3>2 Años</h3>
+                    <p>Especializado en diseño digital, flayers personalizados y tarjetas de presentación.</p>
+                </div>  
+            </div>
+
+            <img src="imagen-setup.jpg" alt="Setup de Nicolás">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-tittle">Proyectos Recientes</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="prueba1.jpg" alt="Proyecto 2">
+                <h3>Ilustraciones Digitales</h3>
+                <p>Series de ilustraciones enfocadas en temáticas modernas.</p>
+                <div class="btn-group">
+                    <a href="https://www.behance.net/gallery/214263003/Mi-Portafolio" class="btn" target="_blank">Repositorio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="contact-me">Contáctame</h2>
+            <div class="input">
+                <input type="text" placeholder="tuemail@ejemplo.com">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="btn">Enviar</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">Sobre Mí</a>
+            </li>
+            <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+
+        <p class="copyright">Todos los derechos reservados</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
